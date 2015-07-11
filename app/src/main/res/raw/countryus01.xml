@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+    <country>
+        <id>1</id>
+        <name>Monde</name>
+        <image>img01001</image>       
+    </country>
+    <country>
+        <id>2</id>
+        <name>Côte d'Ivoire</name>
+        <image>img01002</image>       
+    </country>
+    <country>
+        <id>3</id>
+        <name>Ghana</name>
+        <image>img01003</image>       
+    </country>
+    <country>
+        <id>4</id>
+        <name>Nigeria</name>
+        <image>img01004</image>       
+    </country>
+</countries>

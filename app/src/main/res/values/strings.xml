@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GridListTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_company">Companies</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="title_activity_code_op_from_monde">CodeOpFromMondeActivity</string>
+    <string name="title_activity_ussd_code">UssdCodes</string>
+    <string name="title_activity_code">Codes</string>
+    <string name="title_activity_operation">Operations</string>
+    <string name="title_activity_source">Sources</string>
+    <string name="ussd_country">Country</string>
+    <string name="ussd_mobile_company">Company</string>
+    <string name="ussd_category">Category</string>
+    <string name="ussd_operation">Operation</string>
+    <string name="ussd_code">Codes</string>
+    <string name="ussd_syntax">Syntax</string>
+    <string name="ussd_explanation">explanation</string>
+    <string name="ussd_information_source">Information source</string>
+    <string name="ussd_source">Source</string>
+    <string name="title_activity_code_code">CodeCodeActivity</string>
+    <string name="title_activity_ussd_code_from_monde">UssdCodeFromMondeActivity</string>
+
+</resources>

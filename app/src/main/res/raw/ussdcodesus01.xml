@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ussdcodes>
+    <ussdcode>
+        <country>Côte d'Ivoire</country>
+        <mobilecompany>Orange</mobilecompany>
+        <category>GSM</category>
+        <operation>Consulter crédit d'appel</operation>
+        <code>#122#</code>
+        <syntax></syntax>        
+        <cost>0 FCFA</cost>
+        <explanation></explanation>        
+        <informationsource>orange.ci</informationsource>        
+    </ussdcode>
+    <ussdcode>
+        <country>Côte d'Ivoire</country>
+        <mobilecompany>MTN</mobilecompany>
+        <category>GSM</category>
+        <operation>Consulter crédit d'appel</operation>
+        <code>#100#</code>
+        <syntax></syntax>        
+        <cost>0 FCFA</cost>
+        <explanation></explanation>        
+        <informationsource>mtn.ci</informationsource>        
+    </ussdcode>
+    <ussdcode>
+        <country>Côte d'Ivoire</country>
+        <mobilecompany>MOOV</mobilecompany>
+        <category>GSM</category>
+        <operation>Consulter crédit d'appel</operation>
+        <code>*100#</code>
+        <syntax></syntax>        
+        <cost>0 FCFA</cost>
+        <explanation></explanation>        
+        <informationsource>http://www.tourex.ci/annuaire_ussd.php</informationsource>        
+    </ussdcode>
+    
+    <ussdcode>
+        <country>Côte d'Ivoire</country>
+        <mobilecompany>Orange</mobilecompany>
+        <category>Money</category>
+        <operation>Transfert de crédit</operation>
+        <code>*116*</code>
+        <syntax>*116*num_destinataire*montant*code_secret</syntax>        
+        <cost>0 FCFA</cost>
+        <explanation></explanation>        
+        <informationsource>sms Orange</informationsource>        
+    </ussdcode>   
+    <ussdcode>
+        <country>Monde</country>
+        <mobilecompany></mobilecompany>
+        <category></category>
+        <operation>Connaitre son IMEI</operation>
+        <code>*#06#</code>
+        <syntax></syntax>        
+        <cost>0 FCFA</cost>
+        <explanation>L'International Mobile Equipment Identity (IMEI, littéralement « identité internationale d'équipement mobile ») est un numéro qui permet d'identifier de manière unique chacun des terminaux de téléphonie mobile (ME) GSM ou UMTS.</explanation>        
+        <informationsource></informationsource>        
+    </ussdcode>
+    <ussdcode>
+        <country>Ghana</country>
+        <mobilecompany>MTN</mobilecompany>
+        <category>GSM</category>
+        <operation>Consulter crédit d'appel</operation>
+        <code>#100#?</code>
+        <syntax></syntax>        
+        <cost>GHC 0.00</cost>
+        <explanation></explanation>        
+        <informationsource></informationsource>        
+    </ussdcode>
+</ussdcodes>

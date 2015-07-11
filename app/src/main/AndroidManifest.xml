@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ci.kanasoft.gridlisttest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CompanyActivity"
+            android:label="@string/title_activity_company"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName=".CompanyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CompanyActivity" />
+        </activity>
+        <activity
+            android:name=".CodeOpFromMondeActivity"
+            android:label="@string/title_activity_code_op_from_monde"
+            android:parentActivityName=".CompanyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CompanyActivity" />
+        </activity>
+        <activity
+            android:name=".UssdCodeActivity"
+            android:label="@string/title_activity_ussd_code" >
+        </activity>
+        <activity
+            android:name=".CodeActivity"
+            android:label="@string/title_activity_code" >
+        </activity>
+        <activity
+            android:name=".OperationActivity"
+            android:label="@string/title_activity_operation" >
+        </activity>
+        <activity
+            android:name=".SourceActivity"
+            android:label="@string/title_activity_source"
+            android:parentActivityName=".CategoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CategoryActivity" />
+        </activity>
+        <activity
+            android:name=".CodeCodeFromMondeActivity"
+            android:label="@string/title_activity_code_code" >
+        </activity>
+        <activity
+            android:name=".UssdCodeFromMondeActivity"
+            android:label="@string/title_activity_ussd_code_from_monde" >
+        </activity>
+    </application>
+
+</manifest>
