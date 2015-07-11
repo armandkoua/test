@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operations>
+    <operation>
+        <id>1</id>
+        <name>Consulter crédit d'appel</name>
+        <image>img05001</image>       
+    </operation>
+    <operation>
+        <id>2</id>
+        <name>Transfert de crédit</name>
+        <image>img05002</image>       
+    </operation>
+    <operation>
+        <id>3</id>
+        <name>Connaitre son numéro</name>
+        <image>img05004</image>       
+    </operation>
+
+    <operation>
+        <id>4</id>
+        <name>Connaitre son IMEI</name>
+        <image>img05005</image>       
+    </operation>
+
+    <operation>
+        <id>5</id>
+        <name>*111*</name>
+        <image>img06005</image>       
+    </operation>
+</operations>

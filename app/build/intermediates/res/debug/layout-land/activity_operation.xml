@@ -1,0 +1,11 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridOperation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnWidth="1600dp"
+    android:gravity="center_vertical|center"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="10dp" />
+<!-- From: file:/E:/Projets/import_project/app/src/main/res/layout-land/activity_operation.xml -->

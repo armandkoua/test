@@ -1,0 +1,180 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="40sp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:paddingTop="10sp" android:paddingBottom="10sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_country" />
+
+            <TextView
+                android:id="@+id/txt_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="10sp"/>
+        </LinearLayout>
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:paddingTop="10sp" android:paddingBottom="10sp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_mobile_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_mobile_company" />
+
+            <TextView
+                android:id="@+id/txt_mobile_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200" android:paddingLeft="10sp" />
+        </LinearLayout>
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingTop="10sp" 
+        android:paddingBottom="10sp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_ussd_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_category" />
+
+            <TextView
+                android:id="@+id/txt_ussd_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="10sp" />
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingTop="10sp" 
+        android:paddingBottom="10sp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_ussd_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_source" />
+
+            <TextView
+                android:id="@+id/txt_ussd_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="10sp" />
+        </LinearLayout>
+    </TableRow>
+    
+   
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingTop="10sp" 
+        android:paddingBottom="10sp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_ussd_syntax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_syntax" />
+
+            <TextView
+                android:id="@+id/txt_ussd_syntax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="10sp" />
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:paddingTop="10sp" android:paddingBottom="10sp"  >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_ussd_explanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_explanation" />
+
+            <TextView
+                android:id="@+id/txt_ussd_explanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="10sp" />
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:paddingTop="10sp" android:paddingBottom="10sp"  >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_information_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ussd_information_source" />
+
+            <TextView
+                android:id="@+id/txt_information_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:textColor="@color/material_deep_teal_200"  android:paddingLeft="20sp" />
+        </LinearLayout>
+    </TableRow>
+    
+    
+
+</TableLayout><!-- From: file:/E:/Projets/import_project/app/src/main/res/layout/activity_ussd_code.xml -->

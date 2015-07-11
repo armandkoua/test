@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobilecompanies>
+    <mobilecompany>
+        <id>1</id>
+        <name>MTN</name>
+        <idcounty>2</idcounty>
+        <image>img02001</image>       
+    </mobilecompany>
+    <mobilecompany>
+        <id>2</id>
+        <name>Orange</name>
+        <idcounty>2</idcounty>
+        <image>img02002</image>       
+    </mobilecompany>
+    <mobilecompany>
+        <id>3</id>
+        <name>MOOV</name>
+        <idcounty>2</idcounty>
+        <image>img02003</image>       
+    </mobilecompany>
+    <mobilecompany>
+        <id>4</id>
+        <name>MTN</name>
+        <idcounty>3</idcounty>
+        <image>img02001</image>       
+    </mobilecompany>
+</mobilecompanies>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ci.kanasoft.gridlisttest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ci.kanasoft.gridlisttest.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.CompanyActivity"
+            android:label="@string/title_activity_company"
+            android:parentActivityName="ci.kanasoft.gridlisttest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.MainActivity" />
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName="ci.kanasoft.gridlisttest.CompanyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CompanyActivity" />
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.CodeOpFromMondeActivity"
+            android:label="@string/title_activity_code_op_from_monde"
+            android:parentActivityName="ci.kanasoft.gridlisttest.CompanyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CompanyActivity" />
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.UssdCodeActivity"
+            android:label="@string/title_activity_ussd_code" >
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.CodeActivity"
+            android:label="@string/title_activity_code" >
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.OperationActivity"
+            android:label="@string/title_activity_operation" >
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.SourceActivity"
+            android:label="@string/title_activity_source"
+            android:parentActivityName="ci.kanasoft.gridlisttest.CategoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ci.kanasoft.gridlisttest.CategoryActivity" />
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.CodeCodeFromMondeActivity"
+            android:label="@string/title_activity_code_code" >
+        </activity>
+        <activity
+            android:name="ci.kanasoft.gridlisttest.UssdCodeFromMondeActivity"
+            android:label="@string/title_activity_ussd_code_from_monde" >
+        </activity>
+    </application>
+
+</manifest>

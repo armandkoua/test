@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+    <category>
+        <id>1</id>
+        <name>GSM</name>
+        <image>img03001</image>       
+    </category>
+    <category>
+        <id>2</id>
+        <name>Money</name>
+        <image>img03002</image>       
+    </category>
+</categories>

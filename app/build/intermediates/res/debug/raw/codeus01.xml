@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codes>
+    <code>
+        <id>1</id>
+        <name>#122#</name>
+        <image>img06001</image>       
+    </code>
+    <code>
+        <id>2</id>
+        <name>#100#</name>
+        <image>img06002</image>       
+    </code>
+    <code>
+        <id>3</id>
+        <name>*116*</name>
+        <image>img06004</image>       
+    </code>
+
+    <code>
+        <id>4</id>
+        <name>*111*</name>
+        <image>img06005</image>       
+    </code>
+
+    <code>
+        <id>5</id>
+        <name>*111*</name>
+        <image>img06005</image>       
+    </code>
+
+      <code>
+        <id>6</id>
+        <name>*102*</name>
+        <image>img06006</image>       
+    </code>
+    <code>
+        <id>7</id>
+        <name>#99#</name>
+        <image>img0600</image>       
+    </code>
+    <code>
+        <id>8</id>
+        <name>*#06#</name>
+        <image>img06008</image>       
+    </code>
+
+    <code>
+        <id>9</id>
+        <name>#144#</name>
+        <image>img06009</image>       
+    </code>
+
+    <code>
+        <id>10</id>
+        <name>*133#</name>
+        <image>img06010</image>       
+    </code>
+    <code>
+        <id>11</id>
+        <name>*155#</name>
+        <image>img06011</image>       
+    </code>
+</codes>
